@@ -1,0 +1,50 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #419dda;
+  text-align: center;
+}
+
+h1{
+  color: white;
+}
+.container {
+  max-width: 400px;
+  height: 400px;
+  background: white;
+  margin: auto;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.185);
+}
+
+label {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding-top: 10px;
+  align-items: baseline;
+}
+.letra {
+  text-align: right;
+}
+
+input[type="number"]{
+  max-width: 72px;
+}
+
+.botao {
+  margin-top: 20px;
+  padding: 10px;
+  border-style: none;
+  background: #419dda;
+  border-radius: 5px;
+  color:white;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+}
+ footer a {
+   text-decoration: none;
+   color: white;
+ }
